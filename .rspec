@@ -1,2 +1,4 @@
 --color
 --format documentation
+require_relative "./config/environment.rb"
+run Application.new
